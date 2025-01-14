@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/MiLogo-Favicon.svg"
+      type="image/x-icon"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Portfolio de Alberto</title>
+  </head>
+  <body>
+    <header class="container">
+      <ul
+        class="nav justify-content-center fixed-top w-75 m-auto rounded-5 mt-2"
+      >
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#about">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true" href="#contact">Contacto </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true" href="./pages/blog.html">Blog </a>
+        </li>
+      </ul>
+
+      <section id="home" class="py-5 mt-5">
+        <div class="container w-75">
+          <div class="row align-items-center">
+            <div class="col-md-2">
+              <img
+                src="./assets/img/chimpi.jpg"
+                alt="Alberto Boga"
+                class="img-fluid rounded-circle mb-2"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+            </div>
+            <div class="col-md-6 text-md-start">
+              <a
+                href="https://www.linkedin.com/in/alberto-boga-garc%C3%ADa/"
+                class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-5"
+                id="badge"
+              >
+                Disponible para trabajar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container w-75 mt-2">
+          <h1 class="mb-3">¡Hola , soy Beto!</h1>
+          <a
+            href="mailto:albertoboga27@gmail.com"
+            class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-5 me-3 social-icon"
+            style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25)"
+            mail-to
+          >
+            <i class="bi bi-envelope pe-2"></i> Contáctame
+          </a>
+          <a
+            href="mailto:albertoboga27@gmail.com"
+            class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-5 social-icon"
+            style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25)"
+            mail-to
+          >
+            <i class="bi bi-linkedin pe-2"></i> Linkedin
+          </a>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="about" class="align-self-center" data-aos="fade-up">
+        <div class="container w-75">
+          <h2 class="text-center mb-5">Sobre mi</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Soy un estudiante apasionado por el
+                <span>desarrollo de aplicaciones web.</span> Actualmente, estoy
+                enfocado en aprender las últimas tecnologías y mejores prácticas
+                en el campo del desarrollo web.
+              </p>
+              <p>
+                Mi objetivo es convertirme en un
+                <span>desarrollador web full-stack</span> competente, capaz de
+                crear aplicaciones web robustas y escalables.
+              </p>
+            </div>
+            <div class="col">
+              <h4>Habilidades</h4>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  HTML/CSS
+                </div>
+              </div>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  Java
+                </div>
+              </div>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  PHP
+                </div>
+              </div>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  JavaScript
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="portfolio mt-3 py-5 h-25"
+        id="projects"
+        data-aos="fade-up"
+      >
+        <div class="container w-75">
+          <h2 class="text-center mb-5">Mis proyectos</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="fade-right">
+                <img
+                  src="./assets/img/projects/mockup-amaya.webp"
+                  class="card-img-top"
+                  alt="Proyecto Amaya Corbacho"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Amaya Corbacho</h5>
+                  <p class="card-text">
+                    Página web sobre la artista Amaya Corbacho. Descubre sus
+                    obras de pintura hiperrealista.
+                  </p>
+                  <a
+                    href="https://amayacorbacho.com/"
+                    target="_blank"
+                    class="btn btn-primary social-icon"
+                    >Ir a página</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="fade-down">
+                <img
+                  src="./assets/img/projects/pueyoP.webp"
+                  class="card-img-top"
+                  alt="Proyecto Pueyo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pueyo Palacios</h5>
+                  <p class="card-text">
+                    Página web sobre el entrenador personal Pueyo Palacios. No
+                    esperes más para ponerte en forma.
+                  </p>
+                  <a
+                    href="https://pueyopalacios.com/"
+                    target="_blank"
+                    class="btn btn-primary social-icon"
+                    >Ir a página</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="fade-left">
+                <img
+                  src="./assets/img/projects/frase-dia-project.webp"
+                  class="card-img-top"
+                  alt="Proyecto frase inspiradora"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Una frase cada día</h5>
+                  <p class="card-text">
+                    Cada día una frase inspiradora diferente que te ayudará a
+                    afrontar tus días.
+                  </p>
+                  <a href="#" class="btn btn-primary social-icon"
+                    >Ir a página</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="container w-75" data-aos="zoom-in">
+          <h2 class="text-center mb-5">Mis servicios</h2>
+          <div class="row" >
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <i class="bi bi-laptop"></i>
+                  <h5 class="card-title">Diseño de páginas web</h5>
+                  <p class="card-text">Creación de páginas web .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h5 class="card-title">Marketing digital</h5>
+                  <p class="card-text">
+                    Creación de strategías de marketing digital.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <i class="bi bi-database-check"></i>
+                  <h5 class="card-title">Desarrollo de backend</h5>
+                  <p class="card-text">Desarrollo de software.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="blog" >
+        <div class="container w-75 mt-5 mb-2" >
+          <h2 class="text-center mb-4" >Últimas Entradas del Blog</h2>
+          <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Título del Post 1</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="./pages/blog.html" class="btn btn-primary social-icon"
+                      >Leer más</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Título del Post 2</h5>
+                    <p class="card-text">
+                      Sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <a href="./blog.html" class="btn btn-primary social-icon">Leer más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Título del Post 3</h5>
+                    <p class="card-text">
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris.
+                    </p>
+                    <a href="./pages/blog.html" class="btn btn-primary social-icon">Leer más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#blogCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#blogCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-5">
+        <div class="container w-75 mt-5" data-aos="fade-up">
+          <h2 class="text-center mb-5">Contáctame</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form action="./pages/respuesta.php" method="post">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    placeholder="Tu nombre"
+                    name="nombre"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Correo</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="correo"
+                    placeholder="name@example.com"
+                    name="correo"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Escríbeme algo</label
+                  >
+                  <textarea class="form-control" id="texto" rows="3" name="texto"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary social-icon">
+                  Enviar mensaje
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 mt-5">
+      <div class="container text-center">
+        <p>&copy; 2023 Alberto Boga. Todos los derechos reservados.</p>
+        <div class="social-icons">
+          <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-light me-3"><i class="bi bi-github"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
