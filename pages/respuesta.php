@@ -1,7 +1,8 @@
 <?php
-// Verificar si se ha enviado el formulario
+// php -S localhost:8000
+
 if (isset($_POST)) {
-    // Recoger los datos del formulario
+    
     $nombre = $_POST['nombre'] ?? '';
     $correo = $_POST['correo'] ?? '';
     $mensaje = $_POST['texto'] ?? '';
@@ -46,7 +47,7 @@ if (isset($_POST)) {
                     <p class="card-text">No se ha recibido ningún dato del formulario.</p>
                 <?php endif; ?>
                 <div class="text-center mt-4">
-                    <a href="index.html" class="btn btn-primary">Volver a la página principal</a>
+                    <a href="../index.html" class="btn btn-primary">Volver a la página principal</a>
                 </div>
             </div>
         </div>
