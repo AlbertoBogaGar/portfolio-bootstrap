@@ -23,10 +23,10 @@ if (isset($_POST)) {
     <header class="container">
         <ul class="nav justify-content-center fixed-top w-75 m-auto rounded-5 mt-2">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="../pages/blog.html">Blog</a>
             </li>
         </ul>
     </header>
